@@ -1,0 +1,9 @@
+const user = {
+  firstName: 'tolya',
+  lastName: 'petrov',
+  age: '33',
+};
+
+test('toMatchObject', () => {
+    expect(user).toMatchObject({ firstName: 'tolya', age: '33' });
+})

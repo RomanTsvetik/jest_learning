@@ -1,0 +1,6 @@
+test('Inverted matchers', () => {
+    expect(null).not.toBeNull(); // not null
+    expect(undefined).not.toBeUndefined(); // not undefined
+    expect([4, 6, 8]).not.toContain(6); // not contain 6
+    expect('hello, people').not.toMatch('people'); // not match people
+})

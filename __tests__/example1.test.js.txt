@@ -1,0 +1,15 @@
+test('A lot of cool matchers', () => {
+    expect(null).toBeNull();
+
+    expect(true).toBeTruthy();
+
+    expect(true).toBe(true);
+
+    expect(undefined).toBeUndefined();
+
+    expect([4, 6, 8]).toContain(6);
+
+    expect('hello, people').toMatch('people');
+
+    expect({ key: 'value' }).toHaveProperty('key', 'value');
+})
